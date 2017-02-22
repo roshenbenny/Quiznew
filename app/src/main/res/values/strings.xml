@@ -1,17 +1,24 @@
 <resources>
     <string name="app_name">Quiz</string>
     <string name="question1">1.What is the name of this famous comedy series ?</string>
-    <string name="question2">2.Guess this famous thriller series ?</string>
+    <string name="question2">2.Guess this famous thriller series and the name of the lead character  ?</string>
     <string name="question3">3.What is the name of this thriller anime ?</string>
     <string name="question4">4.What is the name of this famous superhero series ?</string>
-    <string name="naruto">Naruto</string>
+    <string name="question5">5.What is the name of this famous series ?</string>
+    <string name="sample">Enter your Text</string>
     <string name="deathnote">Death Note</string>
-    <string name="codegeass">Code-Geass</string>
+    <string name="got">Game Of Thrones</string>
+    <string name="vikings">Vikings</string>
+    <string name="troy">Troy</string>
     <string name="flash">Flash</string>
     <string name="daysofourlife">Days of our life</string>
     <string name="friends">Friends</string>
+    <string name="deadpool">Deadpool</string>
+    <string name="daredevil">Daredevil</string>
     <string name="sherlock">Sherlock</string>
     <string name="drstrange">Dr.Strange</string>
-    <string name="dexter">Dexter</string>
-
+    <string name="benedict">Benedict cumberbatch</string>
+    <string name="jason">Jason momoa</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
 </resources>
