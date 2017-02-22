@@ -5,6 +5,7 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -71,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, quizScore, Toast.LENGTH_LONG).show();
             }
 
+            public void resetButton(View V) {
+                ViewGroup vg = (ViewGroup) findViewById(R.id.activity_main);
+                vg.invalidate();
+                setContentView(R.layout.activity_main);
+            }
         });
 
 
