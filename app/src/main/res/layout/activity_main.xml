@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:fillViewport="false"
     android:orientation="vertical"
-    android:padding="10dp"
-    android:fillViewport="false">
+    android:padding="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,24 +25,24 @@
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <RadioGroup
+            android:id="@+id/myRadioGroup"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/myRadioGroup">
+            android:layout_height="wrap_content">
             <RadioButton
+                android:id="@+id/a1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/a1"
                 android:text="@string/flash"/>
             <RadioButton
+                android:id="@+id/a2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/a2"
                 android:text="@string/daysofourlife"/>
 
             <RadioButton
+                android:id="@+id/a3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/a3"
                 android:text="@string/friends"/>
 
         </RadioGroup>
@@ -94,12 +95,12 @@
             android:text="@string/question3"
             android:textAppearance="?android:attr/textAppearanceLarge" />
         <EditText
+            android:id="@+id/edittextsample"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:id="@+id/edittextsample"
             android:hint="@string/sample"
-            android:padding="10dp" />
+            android:padding="10dp"
+            android:textSize="18sp" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -114,24 +115,24 @@
             android:text="@string/question4"
             android:textAppearance="?android:attr/textAppearanceLarge" />
         <RadioGroup
+            android:id="@+id/myRadioGroup4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/myRadioGroup4">
+            android:layout_height="wrap_content">
             <RadioButton
+                android:id="@+id/d1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/d1"
                 android:text="@string/flash"/>
             <RadioButton
+                android:id="@+id/d2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/d2"
                 android:text="@string/deadpool"/>
 
             <RadioButton
+                android:id="@+id/d3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/d3"
                 android:text="@string/daredevil"/>
         </RadioGroup>
         <ImageView
@@ -147,24 +148,24 @@
             android:text="@string/question5"
             android:textAppearance="?android:attr/textAppearanceLarge" />
         <RadioGroup
+            android:id="@+id/myRadioGroup5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/myRadioGroup5">
+            android:layout_height="wrap_content">
             <RadioButton
+                android:id="@+id/e1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/e1"
                 android:text="@string/got"/>
             <RadioButton
+                android:id="@+id/e2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/e2"
                 android:text="@string/vikings"/>
 
             <RadioButton
+                android:id="@+id/e3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/e3"
                 android:text="@string/troy"/>
         </RadioGroup>
         <Button
@@ -187,5 +188,7 @@
             android:textSize="15sp"
             android:textStyle="italic"
             android:typeface="normal" />
+
+
     </LinearLayout>
 </ScrollView>
